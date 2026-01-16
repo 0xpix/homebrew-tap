@@ -1,4 +1,4 @@
-# 0xpix Homebrew Tap
+# Hei-DataHub Homebrew Tap
 
 ## Install
 ```bash
