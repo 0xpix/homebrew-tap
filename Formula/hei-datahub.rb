@@ -6,10 +6,10 @@ class HeiDatahub < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/0xpix/Hei-DataHub/releases/download/0.64.0b/hei-datahub-0.64.0b-macos-arm64.tar.gz"
-      sha256 "c2df74989ffaced2c0b87370202de44a391d79c25cba90e8c7b361eb0024e055"
+      sha256 "39353d0051b397bd4ae5f4b3564e54824698486272b5fc22c33fc390d2791781"
     else
       url "https://github.com/0xpix/Hei-DataHub/releases/download/0.64.0b/hei-datahub-0.64.0b-macos-x86_64.tar.gz"
-      sha256 "6f2c9b4aeac2813ecc30c4a05b5a2ea9efae9f92e4289455d3a69fc6480be591"
+      sha256 "1797f8b986cecee57f95e58f2dcc2918ace794089866b4d750e9ac8011502005"
     end
   end
 
