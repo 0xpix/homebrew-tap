@@ -1,15 +1,15 @@
 class HeiDatahub < Formula
   desc "Hei-DataHub: dataset inventory TUI"
   homepage "https://github.com/0xpix/hei-datahub"
-  version "0.65.30b"
+  version "0.65.31b"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/0xpix/Hei-DataHub/releases/download/0.65.30b/hei-datahub-0.65.30b-macos-arm64.tar.gz"
-      sha256 "38876335bcf591d1fb4a8530bdb52ad9bb58232b25c1352b7b9c83a0c90b8445"
+      url "https://github.com/0xpix/Hei-DataHub/releases/download/0.65.31b/hei-datahub-0.65.31b-macos-arm64.tar.gz"
+      sha256 "01439da9859fc0015cad6588242b5a77dedda3038ed2cde4f982646afdbaa82b"
     else
-      url "https://github.com/0xpix/Hei-DataHub/releases/download/0.65.30b/hei-datahub-0.65.30b-macos-x86_64.tar.gz"
-      sha256 "0b3775bada3f753660e761aaa95ec13bab7e56c7fcac68a0088efca8fbfb66ad"
+      url "https://github.com/0xpix/Hei-DataHub/releases/download/0.65.31b/hei-datahub-0.65.31b-macos-x86_64.tar.gz"
+      sha256 "156e8189577d74d232ff71407b1af6619845f1b9f5d6d4f3eecbf8d0a7e5f7b5"
     end
   end
 
